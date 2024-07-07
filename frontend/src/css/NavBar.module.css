@@ -1,0 +1,44 @@
+.navlist{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ span{
+    list-style-type: none;
+    margin-right: 50px;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+/* .nav-list li:last-child {
+    margin-right: 0;
+} */
+
+li{
+    margin-right: 50px;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* li:hover{
+    color:#d4e43b;
+} */
+/* .nav-list li */
+ span:hover {
+    color: #d4e43b;
+    /* Change the color on hover */
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0px;
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}

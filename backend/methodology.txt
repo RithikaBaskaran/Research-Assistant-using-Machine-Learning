@@ -1,0 +1,238 @@
+                    International Journal of Research and Development in Applied Science and Engineering (IJRDASE)  ISSN: 2454-6844    Available online at: www.
+ijrdase.
+com Volume 9, Issue 1, February 2016  All Rights Reserved © 2016 IJRDASE  Three Tank Interacting System Level Control using  Modern AI Techniques          Abstract- A multi tank level control system has an example of  interacting and non-interacting system.
+ In this system, we have  considered three tanks each having equal cross section area  and each tank can be assumed as a first order system which are  connected in interacting and various non-interacting mode.
+  Control of the level in the tank and flow in between them is  basic problem in process control industries almost all the  chemical industries are connected in cascade for storage of  liquid and for other chemical processes.
+ all the tank have their  own manipulated variable to control liquid level inside the tank  so in this section we are analyze the response of various type of  tank, like conical, rectangular etc.
+ the response of these tank  which are connected in interacting and non interacting mode  are observed with applying step input and response these  system is improved by designing various type of controller like  feedback controller and feed-forward controller.
+ Effect of  interaction is also observed and the effect of this interaction is  minimized by designing adding A.
+I techniques like fuzzy and  ANN.
+    Keywords- ANN, Fuzzy, PID Controller, Tank.
+    1.
+ Introduction:  Multi tank systems are widely used in chemical and  petroleum industries so as to control the liquid level in the  tank.
+ It is the challenging task as it may affect both pressure  and flow of the process so it is important to maintain level at  set point.
+ In this project the transfer function of the three  tank system has been formulated.
+ Three tank system is  shown in Fig.
+ 1.
+    Various type of feedback controller can be used to control  the liquid level in the tank but biggest problem is when  disturbance come in to the picture.
+ To nullify the effect of  the disturbance we have to implement feed forward  controller.
+ To maintain liquid level at desired set point  combination of feedback and feed forward-feedback  controller is used.
+    2 Related Work:  Control of liquid level in any process control is challenging  task.
+ There are many different connection of tanks possible  in the plant like Interacting and Non-Interacting.
+ Many type  of disturbances are possible which can affect the  performance of the system.
+ designing of controller for these  type of process is challenging task in process control  industries      Fig.
+ 1.
+ Three tank Non-Interacting system    Juan J.
+ Gude and Evaristo Kahoraho, (2010) [7],  according to them the Ziegler-Nichols tuning rules have  been very influential and have been used extensively in  process industry.
+ This work presents an extension of the  modified Ziegler-Nichols tuning rules for fractional PI  controllers.
+ The design method consists on minimizing a  frequency objective function subject to a constraint on the  maximum sensitivity function MS.
+ In this work it is also  demonstrated that substantially better performance can be  obtained using PI instead of PI controllers.
+ An interpretation  of these tuning rules as methods where one point of the  Nyquist curve is positioned in a desired point is also given.
+  These tuning rules are compared with other tuning rules and  shown to give good results, especially when simplicity,  performance and robustness are emphasized.
+ This work  presents an extension of the Modified Ziegler-Nichols  Mohd.
+ Uvais  Electrical Engg.
+  Integral University, Lucknow   uvaisk@gmail.
+com      Prabhat Ranjan Sarkar  Electrical Engg.
+  Integral University, Lucknow   prabhat@iul.
+ac.
+in      Shaktidev Mukherjee  Electrical Engg.
+  Integral University, Lucknow   shaktidev@iul.
+ac.
+in                          International Journal of Research and Development in Applied Science and Engineering (IJRDASE)  ISSN: 2454-6844    Available online at: www.
+ijrdase.
+com Volume 9, Issue 1, February 2016  All Rights Reserved © 2016 IJRDASE  tuning rules for PI controllers.
+ Good results are obtained in  comparison with other tuning rules.
+ Future investigations  should rely on extending these rules for different values of  and for PID controllers.
+    This work presented by V.
+R.
+Ravi et.
+ al.
+, (2011), [2] control  of non linear Two Tank Conical Interacting System (TTCIS)  using Gain Scheduling Adaptive Controller (GSAC).
+ This  TTCIS is considered as two tank benchmark setup for  interacting non linear systems.
+ The transfer function of  TTCIS was derived and the relationship between TTCIS  parameters and PI controller parameters were derived for  implementing GSAC for TTCIS.
+ Two cases namely multiple  linear models of TTCIS with as many PI controllers and  nonlinear TTCIS model with GSAC were considered.
+ The  Genetic Algorithm (GA) was used to obtain the optimal PI  control settings in first case.
+ The experimental setup for  TTCIS was designed and fabricated.
+ The simulation and  experimental studies were carried out for all the two cases  on a benchmark TTCIS.
+ The advantages of Gain Scheduling  Adaptive Controller over GA tuned multi PI controllers  were highlighted.
+ They concluded that the Gain Scheduling  Adaptive Controller is best suitable for regulatory operations  and variation in process parameter for the TTCIS process.
+    The interactions between input/output variables are a  common phenomenon and the main obstacle encountered in  the design of multi-loop controllers for interacting  multivariable processes.
+ In this work, a method for  controlling multivariable processes is presented by V.
+ R.
+  Ravi et.
+ al.
+ (2011).
+ [4] The controller design is divided into  two parts: firstly, a decoupling matrix is designed in order to  minimize the interaction effects.
+ Then, the controller design  is obtained for the process + decoupler block.
+ The aim is to  meet the design specifications for each loop independently.
+  This method for multivariable decoupling and multiloop  PID controller is applied to Two Tank Conical Interacting  System (TTCIS).
+ This TTCIS is considered as two tank  benchmark problem used by many researchers.
+ Simulation  results and experimental results with TTCIS are provided to  demonstrate the effectiveness and practicality of the  proposed method.
+    R.
+ Ravi et.
+ al.
+ (2012) [8] according to them Model  predictive control (MPC) has become the leading form of  advanced multivariable control in the chemical process  industry.
+ The objective of this work is to introduce a gain  scheduling control strategy for multivariable MPc.
+ The  method of approach is to design multiple linear MPC  controllers.
+ This strategy maintains performance of multiple  linear MPC controllers over a wide range of operating  levels.
+ One important contribution is that the strategy  combines several multiple linear MPC controllers, each with  their own linear state space model describing process  dynamics at a specific level of operation.
+ One of the linear  MPC controller output is selected as gain scheduling  adaptive controller's output based on the current value of the  measured process variable.
+ The tuning parameters for the  MPC controller are obtained u sing real coded Genetic  Algorithm (GA).
+ The capabilities of the gain scheduling  adaptive (GSA) control strategy for MPC controller are  investigated on Two Conical Tank Interacting Level System  (TCTILS) through computer simulation.
+    The dynamic behaviour of two tank interacting system was  studied by the introduction of a step change in the  manipulated variable (flow rate) and measuring the  controlled variable by development of the suitable  mathematical model of the system.
+ This work described by  Parag Joshi (2013) [10], how the effect of the interaction of  this interacting system is minimized by the design of the  suitable de-coupler for the system and also includes the  analysis of the interacting loops between the controlled  variable that is liquid level of both tank and manipulated  variable that is inlet flow rate.
+ Generally in two tank  interacting system there is no inlet flow rate for tank two ,  but this work simplifies the industrial interaction problem  where different tanks has different inlet and this is done by  the help of relative gain array method.
+ The result  exemplifies that the gain of each loop is reduced  approximately half when the opposite loop is closed and the  gain of other loop changes the sign when the opposite loop  is closed.
+ Thus the decoupling is the most appropriate  method for achieving minimal interaction and is most  efficient method.
+    3.
+ Methodology:  3.
+1 Artificial Neural Networks (ANNs):  ANN concepts are based on the present understanding of the  biological nervous systems.
+ An ANN is “a massively  parallel-distributed information processing system that has  certain performance characteristics resembling biological  neural networks of the human brain” [3].
+ Parallel processing  elements of   network  layers is called neurons.
+ In most of  the networks, the input layer receives the input variables  from the problem data.
+ This consists of all variables that can  influence the output.
+ The output layer consists of values  predicted by the network and thus represents model output.
+  Between the input layer and output layer there may be one  or more hidden layer.
+ The neurons in each layer are  connected to the neurons in a proceeding layer by a weight  ‘w’, which can be adjusted during training.
+ The networks  are organized by training methods, which greatly simplifies  the development of specific applications.
+ Fig 2 illustrates a  three-layer neural network consisting of four neurons in  input layer, four neurons in hidden layer and two neurons in  output layer, with the interconnection weights between  layers of neurons.
+      Fig.
+ 2.
+  A three layer Neural Network Configuration                      International Journal of Research and Development in Applied Science and Engineering (IJRDASE)  ISSN: 2454-6844    Available online at: www.
+ijrdase.
+com Volume 9, Issue 1, February 2016  All Rights Reserved © 2016 IJRDASE    Back-propagation is the most popular algorithm for training  ANNs.
+  The  back-propagation  algorithm  gives  a  recommendation for changing the weights, wji, in any  feedforward network to learn a training set of input-output  pairs.
+ It is a supervised learning method in which an output  error is fed back through the network, shifting correlation  weights so as to minimize the error between the network  output and the target output.
+    3.
+2 Fuzzy Logic:  “In almost every case you can build the same product  without fuzzy logic, but fuzzy is faster and cheaper .
+ .
+ .
+”.
+ [1]  Fuzzy logic is a superset of conventional or classic logic that  has been extended to handle the concept of partial truth  (truth values between completely true and completely false).
+  Fuzzy logic is discussed in detail in.
+ Fuzzy logic concerns  the relative importance of precision.
+ How important is it to  be exactly correct when a rough answer will do? Fuzzy logic  balances significance and precision (see Fig 3), something  that humans have been managing for a very long time.
+      Fig.
+ 3.
+ Precision versus significance (Source Matlab,  2011)      Fuzzy logic is a convenient way to map an input  space to an output space, thereby capturing the knowledge  of experts.
+ For example, a user states how good the service  was at a restaurant, and fuzzy logic tells the user what the tip  should be.
+    3.
+3 Proposed Work:  3.
+3.
+1 PID Controller of Three Tank Interacting System  with Disturbance:  We discussed about the results obtained for three tank  interacting system level control using POD, fuzzy and ANN  controller.
+ We have developed the simulation model using  transfer function equations of three tank interacting system  for tank level w.
+r.
+t to step input (transfer function 1) and  w.
+r.
+t to disturbance (transfer function 2)  and we designed  MATLAB/Simulink model of 2 inputs 1 output MIMO  system as shown in fig 4.
+    Fig.
+ 4.
+ PID Controller based Level Control of Three  Tank Interacting System with Disturbance.
+    3.
+3.
+2.
+ Fuzzy Controller of Three Tank Interacting  System with Disturbance:  For improving the performance of controller for three tank  interacting system with disturbance we have applied a fuzzy  controller by observing the value of error (e) and change in  error (Δe) values at the input end of the PID controller.
+  From the data analysis the fuzzy inference system (fis) input  are range is decided to replace the PID by fuzzy controller.
+  The FIS system based controller for three tank interacting  system with disturbance is shown in Fig 5.
+      Fig.
+ 5.
+ Fuzzy Controller based Level Control of Three  Tank Interacting System with Disturbance.
+                      International Journal of Research and Development in Applied Science and Engineering (IJRDASE)  ISSN: 2454-6844    Available online at: www.
+ijrdase.
+com Volume 9, Issue 1, February 2016  All Rights Reserved © 2016 IJRDASE    4.
+ Result and Discussion:  In the fig 4 step 1 is the fluid flow and step is the  disturbance the controller here used is the PID controller for  controlling the fluid level of the of three tank interacting  system.
+ The PID controller block parameter specification are  shown in fig 6.
+It shows that the tuned PID controller as the  values of Kp= 1.
+0457323598035 , Ki= 0.
+387294740392378  and Kd= -0.
+0249261857376972.
+      Fig 6.
+ Block Parameters of Tuned PID Controller of  Three Tank Interacting System with Disturbance.
+    The simulink model of PID controlled system is run for 40  seconds to obtain the step response and the scope 1 is used  to observe the error change in error and controller output.
+  Where error is shown as e(n),change in error is e(n)-e(n- 1).
+The step response of three tank interacting system with  disturbance is shown in figure 4.
+In this step response the  peak value of the step response is 1.
+3202 at the time of at the  6.
+0816 second and the rise time at which step response first  time reached at the 90 percent of the step input is observed  as trise= 3.
+3930sec.
+ Hence it can be observed that the system  is capable of controlling the fluid level with stable response  at a peak overshoot of 32% at a rise time taken to reach the  90% of final response in 3.
+4 seconds (approx.
+) with steady  state error of zero.
+    Fig.
+ 7.
+ PID Controller based Step Response of Three  Tank Interacting System with Disturbance.
+    Since the FIS system has two inputs and one output so the  output is plotted in 3D plot of the fuzzy rules in the fig 8.
+In  this surface view the x-axis is delerr and y-axis is err and z- axis is controller output varying from -2 to +2 for different  combinations of both input values.
+        Fig.
+ 8.
+ Rule Editor based Surface View for the Fuzzy  Rules for the FIS Controller.
+    The above described system when connected with the three  interacting tank system the step response of the observed  system is produced for the simulink model as shown in  figure 5.
+ The simulink model of fuzzy controlled system is  run for 40 seconds to obtain the step response and the scope  1 is used to observe the error change in error and controller  output.
+ Where error is shown as e(n),change in error is e(n)-                     International Journal of Research and Development in Applied Science and Engineering (IJRDASE)  ISSN: 2454-6844    Available online at: www.
+ijrdase.
+com Volume 9, Issue 1, February 2016  All Rights Reserved © 2016 IJRDASE  e(n-1).
+The step response of three tank interacting system  with disturbance is shown in figure 14.
+In this step response  the peak value of the step response is 1.
+0973 at the time of at  time 5.
+0750second and the rise time at which step response  first time reached at the 90 percent of the step input is  observed as trise= 3.
+4252sec.
+ Hence it can be observed that  the system is capable of controlling the fluid level with  stable response at a peak overshoot of 9% at a rise time  taken to reach the 90% of final response in 3.
+4 seconds  (approx.
+) with steady state error of zero.
+        Fig.
+ 9.
+ Fuzzy Controller Based Step Response of Three  Tank Interacting System with Disturbance.
+    5.
+ Conclusion:  From the comparative analysis of all it has been observed  that the PID controller is capable of controlling the step  response but it gives a peak overshoot of 30% at peak time  of 6 sec hence ii can be concluded that PID controller is  slow and gives high peak values.
+ The speed and peak value  both are improved by using the fuzzy controller the peak  overshoot is reduced to 9% and the peak time become 5.
+07  seconds but the rise time of the both systems are 3.
+4 seconds  hence there is no improvement are found in system speed for  PID and fuzzy controller in terms of rise time.
+ The designed  ANN controller consist of 20 neurons and the MSE value of  0.
+005 which shows that the ANN is very efficient to  evaluate the controller output for given error and change in  srror values and it justified that ANN can be replaced by  FUZZY and PID controller.
+ On using the ANN the peak  overshoot become 20% at the peak time of 4.
+4 seconds and  rise time of 3 seconds hence it proves that the fastest  controller is ANN based but at the sacrifice of 20% peak  overshoot.
+ The execution time of the simulink model are  recorded the fuzzy controller takes about 40 seconds to  generate the system response the PID controller takes 0.
+66  sec , fuzzy controller takes 40 sec and ANN based controller  takes 0.
+25 sec.
+ Hence we can conclude that system  complexity of computation the response is very large for  fuzzy controller and the ANN controller is fastest to  compute the response hence the in terms of speed and  computational complexity ANN based tank interacting  system with disturbance is best.
+    Reference:  [1].
+ Zadeh, L.
+A.
+, (1965),  “Fuzzy sets, Information and  Control”,  8, pp 338–353.
+36  [2] Ravi V R, Thyagarajan T, "Application of Adaptive  Control technique for Interacting Non linear Systems," Proc.
+  of IEEE 3rd international conference on Electronics  Computer Technology (ICECT), pp.
+ 386- 392, 2011.
+  [3].
+ Hassoun, M.
+H.
+, “Fundamentals of Artificial Neural  Network”,  Printice-Hall of India.
+  [4] Ravi V R, Thyagarajan T, "A De-centralized PID  Controller for Interacting Non linear Systems," Proc.
+ of  IEEE international Conference on Emerging trends in  Electrical and Computer Technology, pp.
+ 297-302, 2011.
+   [5].
+ Macleod, C.
+ “An Introduction to Practical Neural  Networks and Genetic Algorithms for Scientists and  Engineers”.
+   [6].
+ Maier, H.
+R.
+, (1995), “A review of Artificial Neural  Network.
+”,  Research Report no.
+ R131.
+ Dept.
+ of Civil and  Env.
+ Engg.
+ The University of Adelaide.
+  [7] Gude.
+ J.
+J, “Modified Ziegler-Nichols method for  fractional PI controllers”, international conference on  Emerging Technologies and Factory Automation (ETFA),  2010, pp.
+1-5  [8] Ravi V R, Thyagarajan T, “Gain scheduling Adaptive  Model Predictive Controller for Conical Tank Interacting  Level system” proc.
+ of IEEE international conference on  computing communication and network technologies, pp.
+ 1- 7, 2012.
+   [9].
+ Zhang, G.
+ P.
+,  (2003), “Time series forecasting using a  hybrid  ARIMA  and  neural  network  model”,  Neurocomputing,  50, pp 159–175.
+  [10] Parag Joshi, "Design of de-coupler for an interacting  tanks system", IOSR Journal of Electrical and Electronics  Engineering (IOSR-JEEE), Volume 7, Issue 4 (Sep.
+ - Oct.
+  2013), PP 48-53.
+              
