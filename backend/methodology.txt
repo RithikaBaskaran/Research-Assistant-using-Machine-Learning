@@ -21,7 +21,7 @@ I techniques like fuzzy and  ANN.
  There are many different connection of tanks possible  in the plant like Interacting and Non-Interacting.
  Many type  of disturbances are possible which can affect the  performance of the system.
  designing of controller for these  type of process is challenging task in process control  industries      Fig.
- 1.
+ 1 as Given.
  Three tank Non-Interacting system    Juan J.
  Gude and Evaristo Kahoraho, (2010) [7],  according to them the Ziegler-Nichols tuning rules have  been very influential and have been used extensively in  process industry.
  This work presents an extension of the  modified Ziegler-Nichols tuning rules for fractional PI  controllers.
